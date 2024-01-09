@@ -3,10 +3,10 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# Replace 'your_file.csv' with the actual path to your CSV file
+# Define CSV File
 file_path = 'Hasil_Join.csv'
 
-# Read the CSV file into a Pandas DataFrame
+# Read the CSV file using Pandas
 table_penjualan = pd.read_csv(file_path)
 
 pd.set_option('display.max_rows', 10) # Show all columns
